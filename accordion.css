@@ -1,0 +1,143 @@
+.navbar-custom {
+    background-color: #ffffff;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(27, 26, 26);
+    /* font-weight: bold; */
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgb(27, 26, 26);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: black;
+}
+
+
+.twitter {
+    color: blue;
+}
+
+.jumbotron {
+    background: white;
+    background-image: url(Emergency-Room-Sign.png) center;
+    background-size: cover;
+}
+
+
+
+img {
+    max-width: 110px;
+    max-height: 110px;
+}
+
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+span {
+  color: red;
+}
+
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.accordion .card {
+    background: none;
+    border: none;
+}
+.accordion .card .card-header {
+    background: none;
+    border: none;
+    padding: .4rem 1rem;
+    font-family: "Roboto", sans-serif;
+}
+.accordion .card-header h2 span {
+    float: left;
+    margin-top: 10px;
+}
+.accordion .card-header .btn {
+    color: #2f2f31;
+    font-size: 1.04rem;
+    text-align: left;
+    position: relative;
+    font-weight: 500;
+    padding-left: 2rem;
+}
+.accordion .card-header i {
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 9px;
+}
+.accordion .card-header .btn:hover {
+    color: #ff8300;
+}
+.accordion .card-body {
+    color: #324353;
+    padding: 0.5rem 3rem;
+}
+.page-title {
+    margin: 3rem 0 3rem 1rem;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+}
+.page-title::after {
+    content: "";
+    width: 80px;
+    position: absolute;
+    height: 3px;
+    border-radius: 1px;
+    background: #73bb2b;
+    left: 0;
+    bottom: -15px;
+}
+.accordion .highlight .btn {
+
+    color: red;  
+    /*color: #74bd30;*/
+}
+.accordion .highlight i {
+    transform: rotate(180deg);
+}
+
+.footpics {
+    padding: 100px 30px 30px 30px;
+    text-align: center;
+}
+
+
+
