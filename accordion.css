@@ -1,5 +1,9 @@
 .navbar-custom {
     background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
@@ -146,3 +150,9 @@ a:active {
     
 }
 
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
