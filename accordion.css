@@ -23,12 +23,13 @@
 }
 
 
-
-
-
-.twitter {
-    color: blue;
+.footpics > img {
+    max-width: 110px;
+    max-height: 110px;
 }
+
+
+
 
 .jumbotron {
     background: white;
@@ -37,11 +38,6 @@
 }
 
 
-
-img {
-    max-width: 110px;
-    max-height: 110px;
-}
 
 
 ul {
@@ -153,7 +149,6 @@ a:active {
     
 }
 
-
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -163,3 +158,40 @@ a:active {
 }
 
 
+.card-img-top {
+    height: 120px;
+    object-fit: contain;
+
+    
+}
+
+.card {
+    border:none;
+}
+
+
+.btn {
+    border: none;
+}
+
+.relative {
+    position: relative;
+
+}
+
+.large-watermark {
+    top: -200px;
+    /* top: 0px; */
+    position: absolute;
+    font-size: 20em;
+    white-space: nowrap;
+    font-weight: 600;
+    opacity: 0.02;
+    vertical-align: text-top;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.test {
+    font-size: 1.5em;
+}
