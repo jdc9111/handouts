@@ -158,17 +158,6 @@ a:active {
 }
 
 
-.card-img-top {
-    height: 120px;
-    object-fit: contain;
-
-    
-}
-
-.card {
-    border:none;
-}
-
 
 .btn {
     border: none;
@@ -190,6 +179,16 @@ a:active {
     vertical-align: text-top;
     max-width: 100%;
     overflow: hidden;
+}
+
+.graphic {
+    position: absolute;
+    opacity: 0.1;
+    vertical-align: text-top;
+}
+
+.graphic > img {
+    height: 600px;
 }
 
 .test {
