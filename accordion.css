@@ -284,6 +284,11 @@ h3 {
         font-size: 1.7em;
     }
 
+    .navbar-brand {
+        font-size: 1.6em;
+        font-weight: 700;
+    }
+
 @media screen and (max-width: 400px) {
     h1 {
         padding-top: 60px;
