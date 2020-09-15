@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
   <link href="accordion.css" rel="stylesheet" type="text/css">
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -23,23 +26,18 @@
 <body>
 
 
+
+
   <!--navbar-->
 
   <nav class="navbar navbar-fixed-top navbar-expand-sm navbar-custom">
 
-    <a href="#" class="navbar-brand">handouts.ca</a>
+    <a href="http://www.erfaster.ca" class="navbar-brand"><span class="whiteBackground">ER</span>faster.ca</a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collaps navbar-collapse" id="navbarMenu">
       <ul class="navbar-nav ml-auto">
-
-        <!--
-            <li class="nav-item twitter>
-                <a href="#"><i class="fa fa-lg fa-twitter"></i>
-            </li> -->
-
-
         <li class="nav-item">
           <a href="about.html" class="nav-link">About</a>
         </li>
@@ -55,100 +53,71 @@
     </div>
   </nav>
 
+ <!-- Tittle -->
 
-
-  <!-- Jumbotron -->
-
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-1">just ER <span>handouts</span>.ca</h1>
-      <h2 class="lead">A curated collection of handouts for ED patients from trusted sources.</h2>
-    </div>
+  <div class="title">
+    <h1>Handouts.<span class="dotCa">ca</span></h1>
+    <h3>Information for ED patients from trusted sources</h3>
   </div>
 
-  <section class="relative">
-    <div class="test">
-      <span class="large-watermark">EMEGENCY+</span>
-      <span class="graphic"><img src="icons\anatomical_heart(1).svg"></span>
 
-      <div class="row justify-content-center">
-        <div class="col-md-3 text-left pb-5">
-          <a href="#" data-toggle="modal" data-target="#cardiologyModal">Cardiology</a>
-        </div>
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#choosingModal">Choosing Wisely</a>
-        </div>
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#concussionModal">Concussion</a>
-        </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="list col-sm">
+
+        <a href="#" data-toggle="modal" data-target="#anaphylaxisModal">Anaphylaxis</a><br>
+        <a href="#" data-toggle="modal" data-target="#cardiologyModal">Cardiology</a><br>
+        <a href="#" data-toggle="modal" data-target="#choosingModal">Choosing Wisely</a><br>
+        <a href="#" data-toggle="modal" data-target="#concussionModal">Concussion</a>
+        <a href="#" data-toggle="modal" data-target="#covidModal">COVID-19</a><br>
+        <a href="#" data-toggle="modal" data-target="#entModal">ENT</a><br>
+        <a href="#" data-toggle="modal" data-target="#giModal">GI/General Surgery</a><br>
+        <a href="#" data-toggle="modal" data-target="#infectiousModal">Infectious Disease</a><br>
+        <a href="#" data-toggle="modal" data-target="#medModal">Medications</a><br>
+        <a href="#" data-toggle="modal" data-target="#neuroModal">Neurology</a><br>
       </div>
-
-      <div class="row justify-content-center pb-5">
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#covidModal">COVID-19</a>
-        </div>
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#entModal">ENT</a>
-        </div>
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#giModal">GI/General Surgery</a>
-        </div>
+      <div class="list col-sm">
+        <a href="#" data-toggle="modal" data-target="#obModal">Ob/Gyne</a><br>
+        <a href="#" data-toggle="modal" data-target="#orthoModal">Orthopedics</a><br>
+        <a href="#" data-toggle="modal" data-target="#pedsModal">Pediatrics</a><br>
+        <a href="#" data-toggle="modal" data-target="#respModal">Respirology</a><br>
+        <a href="#" data-toggle="modal" data-target="#rheumModal">Rheumatology</a><br>
+        <a href="#" data-toggle="modal" data-target="#vteModal">Thromboembolism</a><br>
+        <a href="#" data-toggle="modal" data-target="#toxModal">Toxicology</a><br>
+        <a href="#" data-toggle="modal" data-target="#guModal">Urology</a><br>
       </div>
-
-      <div class="row justify-content-center pb-5">
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#infectiousModal">Infectious Disease</a>
-        </div>
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#medModal">Medications</a>
-        </div>
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#neuroModal">Neurology</a>
-        </div>
-      </div>
-
-      <div class="row justify-content-center pb-5">
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#obModal">Ob/Gyne</a>
-        </div>
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#orthoModal">Orthopedics</a>
-        </div>
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#pedsModal">Pediatrics</a>
-        </div>
-      </div>
-
-      <div class="row justify-content-center pb-5">
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modad" data-target="#respModal">Respirology</a>
-        </div>
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#rheumModal">Rheumatology</a>
-        </div>
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#vteModal">Thromboembolism</a>
-        </div>
-      </div>
-
-      <div class="row justify-content-center pb-5">
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#toxModal">Toxicology</a>
-        </div>
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#guModal">Urology</a>
-        </div>
-        <div class="col-md-3 text-left">
-          <a href="#" data-toggle="modal" data-target="#covidModal"></a>
-        </div>
-      </div>
-
     </div>
-  </section>
+
+          
+      
 
 
   <!------------------------ MODALS ----------------------------->
 
+ <!-- Anaphylaxis Modal -->
+ <div class="modal fade" id="anaphylaxisModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+ aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5 class="modal-title" id="exampleModalLabel">Anaphylaxis</h5>
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+       </button>
+     </div>
+     <div class="modal-body">
+       <ul class="drop">
+         <li><a href="https://content.oma.org/wp-content/uploads/private/anaphylaxishandout.pdf">Anaphylasix (OMA.org)</a></li>
+       </ul>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+     </div>
+   </div>
+ </div>
+</div>
+  
 
   <!-- Cardiology Modal -->
   <div class="modal fade" id="cardiologyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -723,6 +692,9 @@
     </div>
   </div>
 
+</div>
+
+<!--
 
   <div class="footpics">
     <img src="logos/aan.png">
@@ -743,13 +715,12 @@
     <img src="logos/heartandstrokecanada.jpg">
   </div>
 
+-->
+
+  <div class="footer">
+    <a class="rompLogo" href="http://www.romponline.com"><img src="https://romponline.com/wp-content/uploads/romp-latest-logo1.png"></a>
   <div>
-    <p class="ml-3">A project by <a href="http://www.erfaster.ca"><span id="red">ERFaster</span>.ca</a> Supported by <a
-        href="http://www.romponline.com"><img src="https://romponline.com/wp-content/uploads/romp-latest-logo1.png"></a>
-    </p>
-    <br>
-    <br>
-  </div>
+
 </body>
 
 </html>

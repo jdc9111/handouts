@@ -1,5 +1,23 @@
+body {
+        background-color: #e75252;
+        font-family: 'Montserrat', sans-serif;
+        color: #e2dede;
+        font-weight: 700;
+}
+
+
+.container {
+    margin-bottom: 75px;
+}
+
+
+.navbar-brand {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
 .navbar-custom {
-    background-color: #ffffff;
+    background-color:#e75252;
     position: fixed;
     top: 0;
     width: 100%;
@@ -30,16 +48,6 @@
 
 
 
-
-.jumbotron {
-    background: white;
-    background-image: url(Emergency-Room-Sign.png) center;
-    background-size: cover;
-}
-
-
-
-
 ul {
   list-style-type: none;
   text-decoration: none;
@@ -51,19 +59,20 @@ span {
 
 
 a:link {
-  color: black;
+  color: white;
   background-color: transparent;
   text-decoration: none;
+  font-weight: 700;
 }
 
 a:visited {
-  color: black;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: red;
+  color: black;
   background-color: transparent;
   text-decoration: none;
   font-weight: bold;
@@ -71,7 +80,7 @@ a:hover {
 }
 
 a:active {
-  color: black;
+  color: white;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -193,4 +202,98 @@ a:active {
 
 .test {
     font-size: 1.3em;
+}
+
+.icon {
+    width: 75px;
+}
+
+.title {
+    padding-top: 120px;
+    padding-bottom: 75px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.display-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+h1 {
+    font-size: 10em;
+    color: #e2dede;
+    font-weight: 700;
+}
+
+
+h3 {
+    font-weight: 400;
+}
+
+.whiteBackground {
+    background-color: white;    
+    color: black;
+}
+
+.dotCa {
+    color: #991515;
+    font-size: 0.8em;
+}
+
+.footer {
+    background-color:  #e2dede;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.rompLogo {
+    margin-left: 10%;
+}
+
+
+ .modal-body a {
+    color: black; 
+ }
+
+ .modal-title {
+     color: black;
+ }
+
+ .modal-body a:hover {
+    color: red; 
+ }
+
+ .list {
+     line-height: 2.5;
+     font-size: 1.3em;
+ }
+
+ p {
+     font-weight: normal;
+     color: white;
+ }
+
+
+ @media screen and (max-width: 1100px) {
+    h1 {
+        font-size: 4em;
+    }
+    h2 {
+        font-size: 1.7em;
+    }
+
+@media screen and (max-width: 400px) {
+    h1 {
+        padding-top: 60px;
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.6em:
+    }
+    .list {
+        text-align: center;
+    }
 }
